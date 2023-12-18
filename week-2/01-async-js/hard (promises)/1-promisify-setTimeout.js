@@ -1,6 +1,8 @@
-/*
-    Write a function that returns a promise that resolves after n seconds have passed, where n is passed as an argument to the function.
-*/
+
+// Write a function that returns a promise that resolves 
+// after n seconds have passed, where n is passed as an 
+// argument to the function.
+
 
 function wait(n) {
     return new Promise((resolve) => {
@@ -12,5 +14,3 @@ function wait(n) {
   
 
 module.exports = wait;
- 
-// setTimeout(()=>{return new Promise(resolve)}, n*1000);

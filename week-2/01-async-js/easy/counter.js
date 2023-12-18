@@ -1,3 +1,5 @@
+// create a counter in javascript
+
 let count=0;
 
 const countInterval=setInterval(()=>{

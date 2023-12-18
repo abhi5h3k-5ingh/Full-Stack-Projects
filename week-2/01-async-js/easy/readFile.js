@@ -1,3 +1,5 @@
+// Read a file in javascript
+
 const fs = require('fs');
 
 const filePath = 'a.txt';
